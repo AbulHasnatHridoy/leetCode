@@ -5,3 +5,4 @@ class Solution {
     return str == str.split('').reversed.join();
   }
 }
+

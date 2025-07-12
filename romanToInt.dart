@@ -15,27 +15,15 @@ class Solution{
       //Geting the first String
       for(int i=0;i<s.length;i++)
       {
-<<<<<<< HEAD
-       // String currentStr=s[i];
-      //Geting the first value    using dictonary
-        int currentValue=romanValues[s[i]]!;
+// String currentStr=s[i];
+//Geting the first value using dictonary
+int currentValue = romanValues[s[i]]!;
 
-        //if there is more than one value:
-        if(i+1<s.length){
-          //String nextStr=s[i+1];
-          //converting string to value using dictornary
-          int nextValue=romanValues[s[i+1]]!;
-=======
-        //String currentStr=s[i];
-      //Geting the first value    using dictonary
-        int currentValue=romanValues[s[i]!;
-
-        //if there is more than one value:
-        if(i+1<s.length){
-        //  String nextStr=s[i+1];
-          //converting string to value using dictornary
-          int nextValue=romanValues[s[i+1]!;
->>>>>>> 8628409544278e832d66174c9eacf9cd0f5cc7ce
+//if there is more than one value:
+if (i + 1 < s.length) {
+  //String nextStr=s[i+1];
+  //converting string to value using dictornary
+  int nextValue = romanValues[s[i + 1]]!;
 
 
           if(currentValue<nextValue){
